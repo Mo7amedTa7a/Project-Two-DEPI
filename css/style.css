@@ -1,4 +1,4 @@
-@import url("/css/root.css");
+@import url("./css/root.css");
 
 /* Start Header */
 header .scrolled {
@@ -13,7 +13,7 @@ header .scrolled {
 /* Start Main */
 main {
   height: 100vh;
-  background: url("/Assets/pictures/main.png") no-repeat center;
+  background: url("./Assets/pictures/main.png") no-repeat center;
   background-size: cover;
   overflow: hidden;
   background-size: 200% 260%;
