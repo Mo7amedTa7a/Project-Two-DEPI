@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "gilroyBold";
+  src: url(/Assets/fonts/Gilroy-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "gilroyRegular";
+  src: url(/Assets/fonts/Gilroy-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "rubikBold";
+  src: url(/Assets/fonts/Rubik-Bold.ttf) format("truetype");
+}
+
+/* colors */
+:root {
+  --main-color: hsl(210, 37%, 97%);
+  --p-small-color: hsl(0, 90%, 63%);
+  --text-main-op: 224, 34%, 13%;
+  --text-main: hsl(224, 34%, 13%);
+  --white-color: hsl(0, 0%, 100%);
+  --white-color-op: 0, 0%, 100%;
+  --black-color: hsl(0, 0%, 0%);
+  --button-color: hsl(237, 86%, 59%);
+}
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  scroll-behavior: smooth;
+  border: none;
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "gilroyBold";
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

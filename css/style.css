@@ -1,0 +1,126 @@
+@import url("../css/root.css");
+
+/* Start Header */
+header .scrolled {
+  display: none;
+}
+
+.logo {
+  font-family: "rubikBold";
+}
+
+/* End Header */
+/* Start Main */
+main {
+  height: 100vh;
+  background: url("/Assets/pictures/main.png") no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+  background-size: 200% 260%;
+  background-position: 30% 75%;
+}
+
+.overlay {
+  background-color: hsla(224, 34%, 13%, 0.8);
+}
+
+.main-h2 {
+  font-size: 4rem;
+}
+
+.custom-btn,
+.form-select {
+  height: 4rem;
+}
+
+.custom-btn {
+  background-color: hsl(244, 86%, 59%);
+  color: white;
+}
+
+.custom-btn:hover {
+  background-color: hsla(244, 86%, 59%, 0.966);
+}
+
+.custom-input {
+  width: 250px;
+}
+
+@media (max-width: 768px) {
+  .main-h2 {
+    font-size: 2rem;
+  }
+
+  .main-mid {
+    width: 90%;
+  }
+}
+
+/* End Main */
+/*Start section 1 */
+.card {
+  border: 0;
+  height: 30rem;
+  width: 18rem;
+}
+
+.card img {
+  height: 25rem;
+}
+.sec1-1-p {
+    width: 20%;
+  }
+@media (max-width: 768px) {
+  .sec1-1-p {
+    width: 70%;
+  }
+  .card {
+  width: 25rem;
+}
+}
+
+/* End section 1 */
+/* Start Section 2 */
+.right-div,
+.left-div {
+  width: 25rem;
+  height: 25rem;
+}
+
+.top-div {
+  height: 41rem;
+}
+@media (max-width: 768px) {
+  .top-div {
+  height: 60rem;
+
+}
+}
+/* End Section 2 */
+/* Start section 3 */
+.section-3 {
+  background-color: hsl(0, 0%, 15%);
+  height: fit-content;
+}
+
+.sec3-div-left,
+.accordion {
+  width: 35rem;
+}
+/* End section 3 */
+/*  Subscription */
+.Subscription{
+  width: 25%;
+}
+@media (max-width: 768px) {
+  .Subscription {
+  width: 80%;
+
+}
+}
+/* Start Footer */
+.social-icons a:hover {
+  color: hsl(244, 86%, 59%) !important;
+}
+
+/* End Footer */
