@@ -10,19 +10,6 @@
   font-family: "rubikBold";
   src: url(/Assets/fonts/Rubik-Bold.ttf) format("truetype");
 }
-
-/* colors */
-:root {
-  --main-color: hsl(210, 37%, 97%);
-  --p-small-color: hsl(0, 90%, 63%);
-  --text-main-op: 224, 34%, 13%;
-  --text-main: hsl(224, 34%, 13%);
-  --white-color: hsl(0, 0%, 100%);
-  --white-color-op: 0, 0%, 100%;
-  --black-color: hsl(0, 0%, 0%);
-  --button-color: hsl(237, 86%, 59%);
-}
-
 /* reset */
 * {
   margin: 0;
